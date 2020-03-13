@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="container">
+            <h1 class="title">Todo List</h1>
+            <div class="form">
+                <input type="text" name="text" id="new_task" class="form_text">
+                <a href="#"class="form_add" id="btn_add">Добавити</a>
+            </div>
+            
+            <h2 class="list_title">Список справ</h2>
+            <ul class="todo_list todo_list-unfinish" id="list_task">
+
+            </ul>
+
+            
+            <h2 class="list_title">Завершенні справ</h2>
+            <ul class="todo_list todo_list-finish" id="finish_task">
+
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
